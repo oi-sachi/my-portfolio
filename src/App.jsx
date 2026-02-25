@@ -38,7 +38,8 @@ function App() {
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
             <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>About Me</h1>
-            <p className='pb-10'>これまで、マーケティング業界に数年財務分析を行っていました。現在はIT業界でシステム構築に従事しながら、副業としてWebサイトやWebアプリを個人として受注しています。また、投資やコンサルティングも積極的に行っており、ご相談されたい方はコンタクトお待ちしております。</p>
+            <p className='pb-10'>これまで、マーケティング業界に数年財務分析を行っていました。現在はIT業界でシステム構築に従事しながら、副業としてWebサイトやWebアプリを個人として受注しています。<br />
+              また、投資やコンサルティングも積極的に行っており、ご相談されたい方はコンタクトお待ちしております。また、投資やコンサルティングも積極的に行っており、ご相談されたい方はコンタクトお待ちしております。</p>
             <p>以下に個人としての成果物を公開しています。主にSNSなどのチャットアプリの構築をReactやJSで実装しています。また、Pythonを使ってAIによる株価の予測サイトを構築しました。また、数件の事業所のWebサイトの構築など多岐にわたります。</p>
           </div>
           {/* カードのdivタグ */}
@@ -147,6 +148,10 @@ function App() {
               <h2>Python</h2>
               <div className='shadow bg-green-100 mt-2 w-full'>
                 <div className='bg-yellow-600 text-xs leading-none py-1 text-center text-white' style={{ width: "80%" }}>80%</div>
+              </div>
+              <h2>PHP</h2>
+              <div className='shadow bg-green-100 mt-2 w-full'>
+                <div className='bg-purple-600 text-xs leading-none py-1 text-center text-white' style={{ width: "80%" }}>80%</div>
               </div>
             </div>
           </div>
